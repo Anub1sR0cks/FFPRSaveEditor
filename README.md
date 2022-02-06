@@ -1,6 +1,12 @@
 # Final Fantasy Pixel Remaster - Save Game Editor
 **FFPRSaveEditor** is a prototype save game editor project for the *Final Fantasy Pixel Remaster* series. The initial release supports decrypting, exporting and re-encrypting save game files from the PC (Steam) version of Final Fantasy 1 through 5 (and should be compatible with 6 when it is released in the future).
 
+## Prerequisites
+
+This project requires the Microsoft .NET 6.0 runtime to be installed on the system:
+
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.1-windows-x64-installer
+
 ## How to Use
 
 To get started, copy your save game file(s) from the `%USERPROFILE%\Documents\My Games\FINAL FANTASY PR\Steam\XXX` directory to a safe location. Drag-and-drop the file onto the decrypt executable which will output a plain-text JSON file. After opening and making changes to the file, re-encrypt the save game using the encrypt executable and copy it back into your save game directory.
